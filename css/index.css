@@ -460,7 +460,8 @@ justify-content: center;
     outline: none;
     border: none;
     top: 40%;
-    left: -8%;
+    left: -5%;
+    z-index: 2;
   }
   .prev:focus {
     background: transparent;
@@ -481,7 +482,7 @@ justify-content: center;
     border: none;
     transform: rotate(180deg);
     top: 38%;
-    right: -8%;
+    right: 0;
   }
   .next:focus {
     background:transparent;
@@ -495,7 +496,11 @@ justify-content: center;
     margin-top: 55px;
   }
   .slick-list {
-    overflow-y: visible;
+
+    overflow: unset;
+    overflow-x: visible;
+
+
   }
 
 
@@ -733,6 +738,7 @@ margin-top:24px
   max-height: 205px;
   max-width: 417px;
   padding-left: 5px;
+  z-index: 2;
 }  
 
 .scnd_right_block{
@@ -747,7 +753,7 @@ margin-top:24px
 }
 .scnd_btn {
 padding: 9px 22px;
-
+font-size: 15px;
 }
 
 
@@ -845,7 +851,6 @@ font-size: 40px;
 .slider {
   width: 265px;
   height: 345px;
-  background: #40464A;
   border-radius: 8px;
 }
 
