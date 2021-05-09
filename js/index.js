@@ -3,7 +3,7 @@ var s = document.getElementById("js_menu-slide");
 
 var burgerBtn = document.getElementById("js_burger");
 burgerBtn.addEventListener("click", function (e) {
-  e.stopPropagation(); 
+  e.stopPropagation();
   magicHappens();
 });
 function magicHappens() {
@@ -16,37 +16,29 @@ document.addEventListener("click", function (e) {
   s.classList.remove("slide");
 });
 
-
-
-
 $(document).ready(function () {
   $(".slider_block").slick({
     slidesToShow: 4,
-    arrows:false,
+    arrows: false,
     prevArrow: "<button class='prev'></button>",
     nextArrow: "<button class='next'></button>",
-    dots:false,
-    dotsClass:"custom-dots",
+    dots: false,
+    dotsClass: "custom-dots",
     responsive: [
       {
         breakpoint: 800,
         settings: {
-          arrows:true,
-          dots:true,
+          arrows: true,
+          dots: true,
           infinite: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           arrows: true,
           dots: true,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 2000,
         },
       },
     ],
   });
 });
-
-
-
-
-
