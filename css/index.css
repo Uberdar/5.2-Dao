@@ -34,7 +34,7 @@ body {
 /*first_block*/
 
 .first_block {
-  background: url(./pic/bg1.png),
+  background: url(../pic/bg1.png),
     radial-gradient(62.63% 123.97% at 50% 0%, #fd6946 31.29%, #f74153 100%);
   background-position-x: 655px, center;
   background-position-y: 120px, center;
@@ -269,7 +269,7 @@ body {
 .scnd_right_block {
   width: 805px;
   height: 507px;
-  background-image: url(./pic/b2.png);
+  background-image: url(../pic/b2.png);
 }
 
 /*third_block*/
@@ -277,7 +277,7 @@ body {
 /*third_block*/
 
 .vertical {
-  background-image: url(./pic/b3vector.png),
+  background-image: url(../pic/b3vector.png),
     radial-gradient(56.98% 112.78% at 50% 105.26%, #fd6946 31.29%, #f74153 100%);
   background-repeat: repeat-x, no-repeat;
   background-position-x: center, center;
@@ -499,7 +499,7 @@ body {
   width: 20px;
   height: 67px;
   background: transparent;
-  background-image: url(./pic/arrow_normal.png);
+  background-image: url(../pic/arrow_normal.png);
   background-repeat: no-repeat;
   outline: none;
   border: none;
@@ -509,7 +509,7 @@ body {
 }
 .prev:focus {
   background: transparent;
-  background-image: url(./pic/arrow_focus.png);
+  background-image: url(../pic/arrow_focus.png);
   background-repeat: no-repeat;
   transform: rotate(180deg);
   outline: none;
@@ -520,7 +520,7 @@ body {
   width: 20px;
   height: 67px;
   background: transparent;
-  background-image: url(./pic/arrow_normal.png);
+  background-image: url(../pic/arrow_normal.png);
   background-repeat: no-repeat;
   outline: none;
   border: none;
@@ -530,7 +530,7 @@ body {
 }
 .next:focus {
   background: transparent;
-  background-image: url(./pic/arrow_focus.png);
+  background-image: url(../pic/arrow_focus.png);
   background-repeat: no-repeat;
   outline: none;
   border: none;
@@ -545,7 +545,7 @@ body {
 .world {
   position: relative;
   height: 1271px;
-  background: url(./pic/bgpanet.png),
+  background: url(../pic/bgpanet.png),
     radial-gradient(81.26% 100% at 50.62% 0%, #fd6946 0%, #f74153 100%);
   background-repeat: no-repeat;
   background-position-x: 0px, center;
@@ -631,7 +631,7 @@ body {
   .world {
     position: relative;
     height: 1271px;
-    background: url(./pic/bgpanet.png),
+    background: url(../pic/bgpanet.png),
       radial-gradient(81.26% 100% at 50.62% 0%, #fd6946 0%, #f74153 100%);
     background-repeat: no-repeat;
     background-position-x: -300px, center;
@@ -670,7 +670,6 @@ body {
     left: 11%;
   }
 }
-/*@media screen and (max-width: 1140px) {}*/
 
 @media screen and (max-width: 1140px) {
   .menu_pic {
@@ -711,7 +710,7 @@ body {
   }
 
   .first_block {
-    background-image: url(./pic/np2.png),
+    background-image: url(../pic/np2.png),
       radial-gradient(62.63% 123.97% at 50% 0%, #fd6946 31.29%, #f74153 100%);
     background-repeat: no-repeat;
     background-position-x: -150px, center;
@@ -810,7 +809,7 @@ body {
     max-height: 510px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(./pic/phonelook.png);
+    background-image: url(../pic/phonelook.png);
   }
   .scnd_btn {
     padding: 9px 22px;
@@ -822,7 +821,7 @@ body {
   /*block three*/
 
   .vertical {
-    background-image: url(./pic/b3vector.png),
+    background-image: url(../pic/b3vector.png),
       radial-gradient(
         56.98% 112.78% at 50% 105.26%,
         #fd6946 31.29%,
@@ -949,7 +948,7 @@ body {
 
   /*block 5*/
   .world {
-    background-image: url(./pic/Planetmob.png),
+    background-image: url(../pic/Planetmob.png),
       radial-gradient(81.26% 100% at 50.62% 0%, #fd6946 0%, #f74153 100%);
     background-repeat: no-repeat;
     background-position-x: center;
